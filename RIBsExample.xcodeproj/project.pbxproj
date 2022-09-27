@@ -11,6 +11,22 @@
 		6BBA6A1428E2ED3000D93963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA6A1328E2ED3000D93963 /* AppDelegate.swift */; };
 		6BBA6A1D28E2ED3200D93963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BBA6A1C28E2ED3200D93963 /* Assets.xcassets */; };
 		6BBA6A2028E2ED3200D93963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BBA6A1E28E2ED3200D93963 /* LaunchScreen.storyboard */; };
+		6BBA6A2928E2EEDD00D93963 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA6A2828E2EEDD00D93963 /* RootBuilder.swift */; };
+		6BBA6A2C28E2EFAE00D93963 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA6A2A28E2EFAE00D93963 /* RootViewController.swift */; };
+		6BBA6A2D28E2EFAE00D93963 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BBA6A2B28E2EFAE00D93963 /* RootViewController.xib */; };
+		6BBA6A2F28E2F04300D93963 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA6A2E28E2F04300D93963 /* RootInteractor.swift */; };
+		6BBA6A3128E2F04E00D93963 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA6A3028E2F04E00D93963 /* RootRouter.swift */; };
+		6BBA6A3628E2F67300D93963 /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA6A3528E2F67300D93963 /* HomeBuilder.swift */; };
+		6BBA6A3828E2F67C00D93963 /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA6A3728E2F67C00D93963 /* LoginBuilder.swift */; };
+		6BBA6A3A28E2F68500D93963 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA6A3928E2F68500D93963 /* HomeRouter.swift */; };
+		6BBA6A3C28E2F68F00D93963 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA6A3B28E2F68F00D93963 /* LoginRouter.swift */; };
+		6BBA6A3E28E2F6E700D93963 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA6A3D28E2F6E700D93963 /* HomeInteractor.swift */; };
+		6BBA6A4028E2F6EF00D93963 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA6A3F28E2F6EF00D93963 /* LoginInteractor.swift */; };
+		6BBA6A4328E2F6FC00D93963 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA6A4128E2F6FC00D93963 /* HomeViewController.swift */; };
+		6BBA6A4428E2F6FC00D93963 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BBA6A4228E2F6FC00D93963 /* HomeViewController.xib */; };
+		6BBA6A4728E2F70C00D93963 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA6A4528E2F70C00D93963 /* LoginViewController.swift */; };
+		6BBA6A4828E2F70C00D93963 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BBA6A4628E2F70C00D93963 /* LoginViewController.xib */; };
+		6BBA6A4A28E3011600D93963 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA6A4928E3011600D93963 /* AppComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +36,22 @@
 		6BBA6A1C28E2ED3200D93963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BBA6A1F28E2ED3200D93963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BBA6A2128E2ED3200D93963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BBA6A2828E2EEDD00D93963 /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
+		6BBA6A2A28E2EFAE00D93963 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		6BBA6A2B28E2EFAE00D93963 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		6BBA6A2E28E2F04300D93963 /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		6BBA6A3028E2F04E00D93963 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		6BBA6A3528E2F67300D93963 /* HomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
+		6BBA6A3728E2F67C00D93963 /* LoginBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
+		6BBA6A3928E2F68500D93963 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		6BBA6A3B28E2F68F00D93963 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		6BBA6A3D28E2F6E700D93963 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		6BBA6A3F28E2F6EF00D93963 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		6BBA6A4128E2F6FC00D93963 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6BBA6A4228E2F6FC00D93963 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		6BBA6A4528E2F70C00D93963 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6BBA6A4628E2F70C00D93963 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		6BBA6A4928E3011600D93963 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
 		94F0C866D07A1C0D306DDEE1 /* Pods-RIBsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIBsExample.debug.xcconfig"; path = "Target Support Files/Pods-RIBsExample/Pods-RIBsExample.debug.xcconfig"; sourceTree = "<group>"; };
 		DBEEA4BC5E0804EFD40E3CB6 /* Pods-RIBsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIBsExample.release.xcconfig"; path = "Target Support Files/Pods-RIBsExample/Pods-RIBsExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,12 +97,60 @@
 		6BBA6A1228E2ED3000D93963 /* RIBsExample */ = {
 			isa = PBXGroup;
 			children = (
-				6BBA6A1328E2ED3000D93963 /* AppDelegate.swift */,
+				6BBA6A3428E2F65600D93963 /* AppConfig */,
+				6BBA6A3328E2F64200D93963 /* Home */,
+				6BBA6A3228E2F62C00D93963 /* Login */,
+				6BBA6A2728E2EED100D93963 /* Root */,
 				6BBA6A1C28E2ED3200D93963 /* Assets.xcassets */,
 				6BBA6A1E28E2ED3200D93963 /* LaunchScreen.storyboard */,
 				6BBA6A2128E2ED3200D93963 /* Info.plist */,
 			);
 			path = RIBsExample;
+			sourceTree = "<group>";
+		};
+		6BBA6A2728E2EED100D93963 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				6BBA6A2828E2EEDD00D93963 /* RootBuilder.swift */,
+				6BBA6A2A28E2EFAE00D93963 /* RootViewController.swift */,
+				6BBA6A2B28E2EFAE00D93963 /* RootViewController.xib */,
+				6BBA6A2E28E2F04300D93963 /* RootInteractor.swift */,
+				6BBA6A3028E2F04E00D93963 /* RootRouter.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		6BBA6A3228E2F62C00D93963 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6BBA6A3728E2F67C00D93963 /* LoginBuilder.swift */,
+				6BBA6A3B28E2F68F00D93963 /* LoginRouter.swift */,
+				6BBA6A3F28E2F6EF00D93963 /* LoginInteractor.swift */,
+				6BBA6A4528E2F70C00D93963 /* LoginViewController.swift */,
+				6BBA6A4628E2F70C00D93963 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6BBA6A3328E2F64200D93963 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6BBA6A3528E2F67300D93963 /* HomeBuilder.swift */,
+				6BBA6A3928E2F68500D93963 /* HomeRouter.swift */,
+				6BBA6A3D28E2F6E700D93963 /* HomeInteractor.swift */,
+				6BBA6A4128E2F6FC00D93963 /* HomeViewController.swift */,
+				6BBA6A4228E2F6FC00D93963 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6BBA6A3428E2F65600D93963 /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				6BBA6A1328E2ED3000D93963 /* AppDelegate.swift */,
+				6BBA6A4928E3011600D93963 /* AppComponent.swift */,
+			);
+			path = AppConfig;
 			sourceTree = "<group>";
 		};
 		E845961060A55F36008FFC5D /* Pods */ = {
@@ -142,8 +222,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BBA6A4828E2F70C00D93963 /* LoginViewController.xib in Resources */,
 				6BBA6A2028E2ED3200D93963 /* LaunchScreen.storyboard in Resources */,
 				6BBA6A1D28E2ED3200D93963 /* Assets.xcassets in Resources */,
+				6BBA6A2D28E2EFAE00D93963 /* RootViewController.xib in Resources */,
+				6BBA6A4428E2F6FC00D93963 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +279,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BBA6A3628E2F67300D93963 /* HomeBuilder.swift in Sources */,
+				6BBA6A4028E2F6EF00D93963 /* LoginInteractor.swift in Sources */,
 				6BBA6A1428E2ED3000D93963 /* AppDelegate.swift in Sources */,
+				6BBA6A3828E2F67C00D93963 /* LoginBuilder.swift in Sources */,
+				6BBA6A3E28E2F6E700D93963 /* HomeInteractor.swift in Sources */,
+				6BBA6A3128E2F04E00D93963 /* RootRouter.swift in Sources */,
+				6BBA6A2928E2EEDD00D93963 /* RootBuilder.swift in Sources */,
+				6BBA6A3C28E2F68F00D93963 /* LoginRouter.swift in Sources */,
+				6BBA6A3A28E2F68500D93963 /* HomeRouter.swift in Sources */,
+				6BBA6A4A28E3011600D93963 /* AppComponent.swift in Sources */,
+				6BBA6A2F28E2F04300D93963 /* RootInteractor.swift in Sources */,
+				6BBA6A2C28E2EFAE00D93963 /* RootViewController.swift in Sources */,
+				6BBA6A4728E2F70C00D93963 /* LoginViewController.swift in Sources */,
+				6BBA6A4328E2F6FC00D93963 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
