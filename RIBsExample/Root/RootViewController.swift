@@ -7,20 +7,32 @@
 
 import UIKit
 import RIBs
+import RxCocoa
+import RxSwift
 
 // Declare properties and methods that the view controller can invoke to perform
 protocol RootPresentableListener: AnyObject {
-    
+    func didPressToLogin()
 }
 
-class RootViewController: UIViewController, RootViewControllable, RootPresentable {
-    weak var listener: RootPresentableListener?
+class RootViewController: UIViewController {
     
-
+    private let disposeBag = DisposeBag()
+    weak var listener: RootPresentableListener?
+    @IBOutlet weak var toLoginButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        toLoginButton.rx.tap
+            .subscribe(onNext: { [weak self] in
+                guard let self = self else { return }
+                self.listener?.didPressToLogin()
+            }).disposed(by: disposeBag)
     }
-    
+}
+
+extension RootViewController: RootViewControllable {
     func present(viewController: ViewControllable) {
         present(viewController.uiviewController, animated: true, completion: nil)
     }
@@ -30,5 +42,8 @@ class RootViewController: UIViewController, RootViewControllable, RootPresentabl
             dismiss(animated: true, completion: nil)
         }
     }
+}
 
+extension RootViewController: RootPresentable {
+    
 }

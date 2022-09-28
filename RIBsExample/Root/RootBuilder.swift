@@ -27,11 +27,16 @@ protocol RootBuildable: Buildable {
 final class RootBuilder: Builder<RootDependency>, RootBuildable {
     func build() -> LaunchRouting {
         let viewController = RootViewController()
-        let component = RootComponent(dependency: dependency, rootViewController: viewController)
+        let component = RootComponent(dependency: dependency,
+                                      rootViewController: viewController)
         let interactor = RootInteractor(presenter: viewController)
         let loginBuilder = LoginBuilder(dependency: component)
+        let homeBuilder = HomeBuilder(dependency: component)
         
-        return RootRouter(interactor: interactor, viewController: viewController, loginBuilder: loginBuilder)
+        return RootRouter(interactor: interactor,
+                          viewController: viewController,
+                          loginBuilder: loginBuilder,
+                          homeBuilder: homeBuilder)
     }
     
     

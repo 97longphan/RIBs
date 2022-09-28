@@ -8,7 +8,8 @@
 import Foundation
 import RIBs
 protocol RootRouting: ViewableRouting {
-    
+    func routeToLogin()
+    func routeToHome()
 }
 
 protocol RootPresentable: Presentable {
@@ -16,7 +17,6 @@ protocol RootPresentable: Presentable {
 }
 
 protocol RootListener: AnyObject {
-
 }
 
 final class RootInteractor: PresentableInteractor<RootPresentable>, RootInteractable, RootPresentableListener {
@@ -29,15 +29,12 @@ final class RootInteractor: PresentableInteractor<RootPresentable>, RootInteract
         presenter.listener = self
     }
     
-    override func didBecomeActive() {
-        
+    func didPressToLogin() {
+        router?.routeToLogin()
     }
     
-    override func willResignActive() {
-        
+    func didLoginSuccess(userName: String) {
+        router?.routeToHome()
     }
-    
-    
-    
     
 }

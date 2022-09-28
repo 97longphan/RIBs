@@ -16,7 +16,7 @@ final class LoginComponent: Component<LoginDependency> {
 }
 
 protocol LoginBuildable: Buildable {
-    func build(withListener listtener: LoginListener) -> LoginRouting
+    func build(withListener listener: LoginListener) -> LoginRouting
 }
 
 final class LoginBuilder: Builder<LoginDependency>, LoginBuildable {
@@ -34,8 +34,6 @@ final class LoginBuilder: Builder<LoginDependency>, LoginBuildable {
         interactor.listener = listener
         
         return LoginRouter(interactor: interactor, viewController: viewController)
-        
-        
     }
     
     
